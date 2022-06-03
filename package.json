@@ -5,6 +5,7 @@
   "private": true,
   "homepage": "https: //carlosaicrag.github.io/virtual_graduation/",
   "scripts": {
+    "data": "node ./src/data/gradMapper.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx webpack -w --mode=development",
     "predeploy": "npm run build",
@@ -19,5 +20,8 @@
     "gh-pages": "^2.2.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }

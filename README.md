@@ -1,5 +1,20 @@
 Live site: https://carlosaicrag.github.io/virtual_graduation/
 
+
+## 2022 Instructions: (Ricky's Edition)
+- Clone Down Repo
+- Copy and Paste Current Students from Progress a/A
+    - Add students and github usernames onto excel sheet in `./src/data/test.xlsx`
+- Once data has been added in run `npm run data`
+    - data returns array of objects which includes name and github images.
+    - copy array from terminal and replace existing student variable in `./src/students/Five-20.js`
+- Check if students have images:
+    - use live html on testimage.html in ./src/data to check if student doesn't have an image.
+    - Manually replace temporary image with linkedin image by visiting their angelist or linkedin pages and copy + pasting.
+- Once everything is checked, run `npm run start`
+    - to bundle everything to `main.js` and live html `index.html` to see results.
+    - You can comment out music if its annoying.
+
 ## To add cohort:
 - Clone down repo
 - Go to a/A name game to get student data file (remove dismissed students)

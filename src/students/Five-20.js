@@ -1,188 +1,133 @@
 const students = [
-    {
-        name: 'Andrew Murray',
-        imageUrl: 'https://avatars.githubusercontent.com/u/92741849?v=4',
-    },
-    {
-        name: 'Andrés Soca',
-        imageUrl: 'https://avatars.githubusercontent.com/u/80717932?v=4',
-    },
-    {
-        name: 'Brandon Copeland',
-        imageUrl: 'https://avatars.githubusercontent.com/u/69406415?v=4',
-    },
-    {
-        name: 'Brandon Vicchiollo',
-        imageUrl: 'https://avatars.githubusercontent.com/u/75706553?v=4',
-    },
-    {
-        name: 'Brendon James',
-        imageUrl: 'https://avatars.githubusercontent.com/u/92548825?v=4',
-    },
-    {
-        name: 'Brittany Moliver',
-        imageUrl: 'https://avatars.githubusercontent.com/u/87881860?v=4',
-    },
-    {
-        name: 'Bryan Arnold',
-        imageUrl: 'https://avatars.githubusercontent.com/u/89806866?v=4',
-    },
-    {
-        name: 'Casey Cochran',
-        imageUrl: 'https://avatars.githubusercontent.com/u/90711743?v=4',
-    },
-    // {
-    //     name: 'Corbin Arcus',
-    //     imageUrl: 'src/students/corbinArcus.jpg',
-    // },
-    {
-        name: 'Casey Spears',
-        imageUrl: 'https://avatars.githubusercontent.com/u/92146309?v=4',
-    },
-    {
-        name: 'Cesar Solano',
-        imageUrl: 'https://avatars.githubusercontent.com/u/70457320?v=4',
-    },
-    {
-        name: 'Charlie Woods',
-        imageUrl: 'https://avatars.githubusercontent.com/u/83300311?v=4',
-    },
-    {
-        name: 'Chiew Saetern',
-        imageUrl: 'https://avatars.githubusercontent.com/u/90011085?v=4',
-    },
-    {
-        name: 'Chris Breen',
-        imageUrl: 'https://avatars.githubusercontent.com/u/91027574?v=4',
-    },
-    {
-        name: 'Chris Young',
-        imageUrl: 'https://avatars.githubusercontent.com/u/86635475?v=4',
-    },
-    {
-        name: 'Dane Becker',
-        imageUrl: 'https://avatars.githubusercontent.com/u/38844314?v=4',
-    },
-    {
-        name: 'Daniel Thai',
-        imageUrl: 'https://avatars.githubusercontent.com/u/83685703?v=4',
-    },
-    {
-        name: 'David Alliger',
-        imageUrl: 'https://avatars.githubusercontent.com/u/88861592?v=4',
-    },
-    {
-        name: 'David Lee',
-        imageUrl: 'https://avatars.githubusercontent.com/u/86549729?v=4',
-    },
-    {
-        name: 'David Nash',
-        imageUrl: 'https://avatars.githubusercontent.com/u/61633951?v=4',
-    },
-    {
-        name: 'Eric Huang',
-        imageUrl: 'https://avatars.githubusercontent.com/u/9221453?v=4',
-    },
-    {
-        name: 'George Eng',
-        imageUrl: 'https://avatars.githubusercontent.com/u/88999544?v=4',
-    },
-    {
-        name: 'Hamlet Villa',
-        imageUrl: 'https://avatars.githubusercontent.com/u/17211586?v=4',
-    },
-    {
-        name: 'Jake Richardson',
-        imageUrl: 'https://avatars.githubusercontent.com/u/88405940?v=4',
-    },
-    {
-        name: 'James Chen',
-        imageUrl: 'https://avatars.githubusercontent.com/u/87781597?v=4',
-    },
-    {
-        name: 'James Tuttle',
-        imageUrl: 'https://avatars.githubusercontent.com/u/2349101?v=4',
-    },
-    {
-        name: 'Joan Buck',
-        imageUrl: 'https://avatars.githubusercontent.com/u/90011287?v=4',
-    },
-    {
-        name: 'John Amini',
-        imageUrl: 'https://avatars.githubusercontent.com/u/91162716?v=4',
-    },
-    {
-        name: 'Justin Chau',
-        imageUrl: 'https://avatars.githubusercontent.com/u/87829544?v=4',
-    },
-    {
-        name: 'Justin Sweeney',
-        imageUrl: 'https://avatars.githubusercontent.com/u/86797221?v=4',
-    },
-    {
-        name: 'Karl Felter',
-        imageUrl: 'https://avatars.githubusercontent.com/u/91348857?v=4',
-    },
-    {
-        name: 'Katerina Kreibich',
-        imageUrl: 'https://avatars.githubusercontent.com/u/87352324?v=4',
-    },
-    {
-        name: 'Laura Maser',
-        imageUrl: 'https://avatars.githubusercontent.com/u/92398763?v=4',
-    },
-    {
-        name: 'Leonel Murillo',
-        imageUrl: 'https://avatars.githubusercontent.com/u/72574258?v=4',
-    },
-    {
-        name: 'Lucas Monteiro',
-        imageUrl: 'https://avatars.githubusercontent.com/u/79651942?v=4',
-    },
-    {
-        name: 'Matthew Pierik',
-        imageUrl: 'https://avatars.githubusercontent.com/u/92738445?v=4',
-    },
-    {
-        name: 'Mia Joubert',
-        imageUrl: 'https://avatars.githubusercontent.com/u/91270578?v=4',
-    },
-    {
-        name: 'Mitch Depree',
-        imageUrl: 'https://avatars.githubusercontent.com/u/90070157?v=4',
-    },
-    {
-        name: 'Sai Byri',
-        imageUrl: 'https://avatars.githubusercontent.com/u/85528106?v=4',
-    },
-    {
-        name: 'Srdan Vorkapic',
-        imageUrl: 'https://avatars.githubusercontent.com/u/56381552?v=4',
-    },
-    {
-        name: 'Vern Chao',
-        imageUrl: 'https://avatars.githubusercontent.com/u/91238232?v=4',
-    },
-    {
-        name: 'Vu Co',
-        imageUrl: 'https://avatars.githubusercontent.com/u/87354065?v=4',
-    },
-    {
-        name: 'Whitney Minson',
-        imageUrl: 'https://avatars.githubusercontent.com/u/89945390?v=4',
-    },
-    {
-        name: 'Wilvanson Dutervil',
-        imageUrl: 'https://avatars.githubusercontent.com/u/90806686?v=4',
-    },
-    {
-        name: 'Yanelys Mena',
-        imageUrl: 'https://avatars.githubusercontent.com/u/88916829?v=4',
-    },
-    // {
-    //     name: '',
-    //     imageUrl: '',
-    // },
-]
+  { name: "Adam Tang", imageUrl: "https://github.com/adamtang5.png" },
+  {
+    name: "Alexander (Alex) Min",
+    imageUrl: "https://github.com/AlexanderSMin.png",
+  },
+  { name: "Ali Naqvi", imageUrl: "https://github.com/arn1215.png" },
+  { name: "Andrew Bui", imageUrl: "https://github.com/bandrewi.png" },
+  {
+    name: "Angel Mendez",
+    imageUrl: "https://github.com/mendezangel.png",
+  },
+  {
+    name: "Arianna Robinson",
+    imageUrl: "https://github.com/AriannaNRobinson.png",
+  },
+  {
+    name: "Benjamin (Ben) Danishevsky",
+    imageUrl: "https://github.com/benjamin-danishevsky.png",
+  },
+  {
+    name: "Christopher (Chris) Mizell",
+    imageUrl: "https://github.com/Cmizell186.png",
+  },
+  {
+    name: "Christopher (Chris) Tsang",
+    imageUrl: "https://github.com/ctsang727.png",
+  },
+  {
+    name: "Crystal Chavez",
+    imageUrl: "https://github.com/crystalchavez99.png",
+  },
+  { name: "Daniel Blanco", imageUrl: "https://github.com/danguai.png" },
+  {
+    name: "Edwin Lopez-Carrillo",
+    imageUrl: "https://github.com/edwincarr.png",
+  },
+  {
+    name: "Gabriel (Gabe) Sitorus",
+    imageUrl:
+      "https://media-exp1.licdn.com/dms/image/D5603AQHYi5RD9DFdKA/profile-displayphoto-shrink_800_800/0/1647206013202?e=1659571200&v=beta&t=qw9ww9w6mOxI7oxTHgRyTaFVQ8H_8s5SBsmjJZfVx3U",
+  },
+  { name: "Grant Walton", imageUrl: "https://github.com/Gwantt.png" },
+  {
+    name: "Huyen Nguyen",
+    imageUrl: "https://github.com/huyennguuyen.png",
+  },
+  {
+    name: "Jacob Chamberlain",
+    imageUrl: "https://github.com/JacobDChamberlain.png",
+  },
+  {
+    name: "Jaden Lambino",
+    imageUrl: "https://github.com/jadenlambino.png",
+  },
+  { name: "James Chen", imageUrl: "https://github.com/jameschenn.png" },
+  {
+    name: "Jared Kunhart",
+    imageUrl:
+      "https://media-exp1.licdn.com/dms/image/C5603AQHpG5GgWAAj_A/profile-displayphoto-shrink_400_400/0/1653502077725?e=1659571200&v=beta&t=mqPzuMyuvkjwvYGRJvdFkOGpc_V_g-Pu8I_lwuXHrLQ",
+  },
+  { name: "Jason Vien", imageUrl: "https://github.com/JDVien.png" },
+  {
+    name: "Jesus Elizalde",
+    imageUrl: "./src/students/jesuslizade.jpg",
+  },
+  {
+    name: "Jon Moore",
+    imageUrl: "https://github.com/jonevanmoore.png",
+  },
+  {
+    name: "Juan (Damian) Rojas",
+    imageUrl: "https://jaydrojas.github.io./images/myProfile2.jpg",
+  },
+  {
+    name: "Kateryna (Kat) Tsymbal",
+    imageUrl: "https://github.com/TKat72.png",
+  },
+  {
+    name: "Kevin Pravia Mayorga",
+    imageUrl: "https://github.com/reversalbino.png",
+  },
+  { name: "Khoi Duong", imageUrl: "https://github.com/kdngaa.png" },
+  { name: "Kicky Liu", imageUrl: "https://github.com/kickylau.png" },
+  {
+    name: "Kristen Reid",
+    imageUrl: "https://github.com/Kristen-Reid.png",
+  },
+  {
+    name: "Luke Yamasaki",
+    imageUrl:
+      "https://media-exp1.licdn.com/dms/image/C5603AQFnCLL1eZPtEw/profile-displayphoto-shrink_800_800/0/1626411359840?e=1659571200&v=beta&t=BEs-0WUj3ntatlu4bd9c7BZTr3sD-D6zSLNZ1ueaqug",
+  },
+  { name: "Nathan Zavala", imageUrl: "https://github.com/zavadev.png" },
+  {
+    name: "Nicholas (Nick) Yuan",
+    imageUrl: "https://github.com/Nick-Yawn.png",
+  },
+  { name: "Nick Austin", imageUrl: "https://github.com/nraustin.png" },
+  { name: "Parth Bhakta", imageUrl: "https://github.com/parth610.png" },
+  {
+    name: "Philip Mccrickard",
+    imageUrl: "https://github.com/pcricket10.png",
+  },
+  {
+    name: "Rami Martinez",
+    imageUrl: "https://github.com/rammartinez00.png",
+  },
+  {
+    name: "Roger Camps",
+    imageUrl: "https://github.com/rogercamps.png",
+  },
+  {
+    name: "Ryan Schneider",
+    imageUrl: "https://github.com/YinYang117.png",
+  },
+  { name: "Steve Choi", imageUrl: "https://github.com/Fiasco071.png" },
+  {
+    name: "Steven Kleinberg",
+    imageUrl:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGdxotMFb7mNA/profile-displayphoto-shrink_400_400/0/1649707018304?e=1659571200&v=beta&t=HDTWwme0zWtBhsLe6rkWPNP8UfU_CkA5-Dk7hLHOuMo",
+  },
+  {
+    name: "Suwanshree (Suwan) Acharya",
+    imageUrl: "https://github.com/suwanshree.png",
+  },
+  {
+    name: "Tristan Huckabee",
+    imageUrl: "https://github.com/tristanhuckabee-work.png",
+  },
+];
 
-export default students
+export default students;
