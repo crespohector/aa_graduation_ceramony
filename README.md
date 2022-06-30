@@ -1,5 +1,6 @@
-Live site: https://carlosaicrag.github.io/virtual_graduation/
+Live Example Site: https://carlosaicrag.github.io/virtual_graduation/
 
+Actual Domain: https://appgraduation.ml/
 
 ## 2022 Instructions: (Ricky's Edition)
 - Clone Down Repo
