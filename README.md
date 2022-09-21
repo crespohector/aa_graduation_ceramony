@@ -1,8 +1,18 @@
-Live Example Site: https://carlosaicrag.github.io/virtual_graduation/
+# Graduation Ceremony Instructions
 
-Actual Domain: https://appgraduation.ml/
+## Whit's Way or the Highway
+-- Use this manual way if you don't have Microsoft Excel. Updated September 2022 --
+- Clone down repo
+- Manually change the student objects in `src/students/Five-20.js`
+    - Go down the Mod 7 Spreadsheet for names and make sure to only include those who are graduating.
+    - Easiest place for a photo is their github profile images, but you can also look at LinkedIn, AngelList, & Portfolio site (can be easily found in InterviewDB)
+- Remember to change the h1 title to the current cohort.
+- Run `npm run start` to build the pack. 
+- Run live server on `index.html` to view and present!
 
+-----------------------------
 ## 2022 Instructions: (Ricky's Edition)
+-- Use this way if you want to use Microsoft Excel sheet to do this automatically --
 - Clone Down Repo
 - Copy and Paste Current Students from Progress a/A
     - Add students and github usernames onto excel sheet in `./src/data/test.xlsx`
@@ -16,7 +26,12 @@ Actual Domain: https://appgraduation.ml/
     - to bundle everything to `main.js` and live html `index.html` to see results.
     - You can comment out music if its annoying.
 
+
+-------------------------------------
+
+
 ## To add cohort:
+-- old instructions??? --
 - Clone down repo
 - Go to a/A name game to get student data file (remove dismissed students)
     - Repo link: https://github.com/appacademy/aa-picture-game
@@ -27,3 +42,7 @@ Actual Domain: https://appgraduation.ml/
 - Don't forget to webpack it! run `npm run build`
 - Push it up! (Wait a few minutes for github pages)
 - Have fun!
+
+### Old Links that were included:
+Live Example Site: https://carlosaicrag.github.io/virtual_graduation/
+Actual Domain: https://appgraduation.ml
